@@ -49,8 +49,8 @@
   background: var(--color3);
 }
 
- header{
-  max-width: 1300px;
+header {
+  max-width: 1060px;
   margin: 0 auto;
   width: 100%;
 }
@@ -123,11 +123,11 @@
 
 /* main part start */
 /* logo section style */
-.logo-sec{
-  max-width: 1300px;
+.logo-sec {
+  max-width: 1060px;
   margin: 40px auto;
 }
-.social-links{
+.social-links {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   gap: 1rem;
@@ -135,4 +135,40 @@
   align-items: center;
   margin-bottom: 30px;
   /* border: 2px solid; */
+}
+/* popular collection style */
+.popular-collection {
+  max-width: 1060px;
+  margin: 30px auto;
+  text-align: center;
+}
+.collection-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 30px;
+  /* border: 1px solid steelblue; */
+  justify-items: center;
+  gap: 10px;
+}
+
+.container-card {
+  /* border: 2px solid saddlebrown; */
+  padding: 20px;
+  text-align: left; /* Text is aligned to the left */
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  background: var(--color6);
+}
+
+.collection-img {
+  display: flex;
+  justify-content: center; /* Centers the image horizontally */
+  margin-bottom: 10px; /* Adds space between image and text */
+  object-fit: cover;
+}
+
+.collection-img img {
+  max-width: 100%;
+  height: auto;
 }
