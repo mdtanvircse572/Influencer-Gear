@@ -1,5 +1,5 @@
 /* For small devices (like phones) */
-@media (max-width: 426px) {
+@media (min-width: 320px) and (max-width: 426px) {
   .navbar {
     justify-content: center;
   }
@@ -29,7 +29,10 @@
   }
   .collection-img img {
     max-width: 90%;
-    height: auto;
+  }
+  .feature{
+    grid-template-columns: repeat(1, 1fr);
+    padding: 10px;
   }
   
 }
@@ -46,5 +49,8 @@
   }
   .social-links {
     grid-template-columns: repeat(3, 1fr);
+  }
+  .feature{
+    grid-template-columns: repeat(1, 1fr);
   }
 }
