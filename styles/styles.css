@@ -43,12 +43,13 @@
   align-items: center;
   gap: 5px;
   cursor: pointer;
+  margin-top: 10px;
 }
 .primary-btn:hover {
   background: var(--color3);
 }
 
-.section, header{
+ header{
   max-width: 1300px;
   margin: 0 auto;
   width: 100%;
@@ -64,10 +65,12 @@
   margin: 20px;
 }
 .brand {
-  color: var(--color1);
+  color: var(--color5);
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 800;
+  font-style: italic;
   line-height: 2.25rem;
+  text-wrap: nowrap;
 }
 .navbar ul {
   display: flex;
@@ -93,8 +96,10 @@
   margin: 0 20px;
 }
 .banner-content {
-  max-width: 582px;
+  max-width: 37rem;
+  height: auto;
   text-align: left;
+  padding: 5px;
 }
 .banner-content h1 {
   color: var(--color1);
@@ -114,4 +119,17 @@
   background-repeat: no-repeat;
   background-size: contain;
   padding: 10px;
+}
+
+/* main part start */
+/* logo section style */
+.social-links{
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 1rem;
+  justify-items: center;
+  align-items: center;
+  margin: 40px auto;
+  /* border: 2px solid; */
+  max-width: 1300px;
 }
